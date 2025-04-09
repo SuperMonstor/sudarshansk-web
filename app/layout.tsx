@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 		canonical: "/",
 	},
 	title: {
-		default: "Lee Robinson",
-		template: "%s | Lee Robinson",
+		default: "Sudarshan S",
+		template: "%s | Sudarshan S",
 	},
-	description: "Frontend developer, optimist, community builder.",
+	description: "Entrepreneur, developer, and writer.",
 }
 
 export default function RootLayout({
@@ -40,10 +40,9 @@ export default function RootLayout({
 
 function Footer() {
 	const links = [
-		{ name: "@leerob", url: "https://x.com/leerob" },
-		{ name: "youtube", url: "https://www.youtube.com/@leerob" },
-		{ name: "linkedin", url: "https://www.linkedin.com/in/leeerob" },
-		{ name: "github", url: "https://github.com/leerob" },
+		{ name: "@realsudarshansk", url: "https://x.com/realsudarshansk" },
+		{ name: "instagram", url: "https://www.instagram.com/realsudarshansk" },
+		{ name: "github", url: "https://github.com/SuperMonstor" },
 	]
 
 	return (
